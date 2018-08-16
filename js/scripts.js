@@ -3,12 +3,15 @@ var encrypt = function (inputString){
   var stringLength = inputString.length;
   var squareString = Math.sqrt(stringLength);
   // return (squareString)
-
+  var encryptArr = [];
   var row = Math.ceil(squareString);
   var column = Math.ceil(stringLength/row);
-
-  // return ("The phrase " + inputString + " is " + stringLength + " long and will use a " + row + " X " + column + " grid.");
-  return(inputString[0]);
+  alert(stringLength + " " + row + " " + column);
+for (i = 0; i < column * 5; i+= column){
+  alert(column + " " + i)
+  encryptArr.push(inputString[i]);
+}
+  return(encryptArr.join());
 
 }
 // user logic
