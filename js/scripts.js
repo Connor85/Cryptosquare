@@ -1,6 +1,8 @@
 // business logic
 var encrypt = function (inputString){
-  var stringLength = inputString.length;
+  inputString = inputString.replace(/\W/g, '');
+  alert(inputString);
+  stringLength = inputString.length;
   var squareString = Math.sqrt(stringLength);
   // return (squareString)
   var encryptArr = [];
@@ -11,7 +13,7 @@ for (i = 0; i < column * 5; i+= column){
   alert(column + " " + i)
   encryptArr.push(inputString[i]);
 }
-  return(encryptArr.join());
+  return(encryptArr.join(''));
 
 }
 // user logic
