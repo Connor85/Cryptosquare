@@ -1,6 +1,8 @@
 // business logic
 var encrypt = function (inputString){
-  return (inputString)
+  var stringLength = inputString.length;
+  var squareString = Math.sqrt(stringLength);
+  return (squareString)
 
 }
 // user logic
