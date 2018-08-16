@@ -1,22 +1,24 @@
-# _Roman Numeral Converter_
+# _Cryptocode Encryption_
 
-#### _Roman Numeral Converter, August 16, 2018_
+#### _Cryptocode Encryption, August 16, 2018_
 
 #### By _**Conor McCarthy, Brian Nelson**_
 
 ## Description
 
-_Create a page that asks the user to input a year to find out whether its a leap year or not._
+_Page converts a string of text into an encrypted string output.._
 
 ## Spec
 
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **The program returns the same user input back.** | Input: "3" | Output: "3" |
-| **The program rejects a non decimal number.** | Input: "L" | Output: "NaN" |
-| **The program returns the roman numeral that is closet to the total decimal number with out going over.** | Input: "80" | Output: "L" |
-| **The program returns the first letter of the converted decimal and displays the remaining number to conver** | Input: "80" | Output: "L & 30" |
-| **The program reruns the remainder through the function** | Input: "80" | Output: "LXXX" |
+| **The program returns the same user input back.** | Input: "Run to the store" | Output: "Run to the store" |
+| **The program counts how many characters are in a string.** | Input: "run" | Output: "3" |
+| **The program returns the square for square numbers** | Input: "runs" | Output: "2 x 2 square" |
+| **The program returns best fitting square for non-square numbers.** | Input: "jumps" | Output: "3 x 2" |
+| **The program returns the first letter of each encrypted word.** | Input: "don't compare yourself to others, compare yourself to the person you were yesterday" | Output: "d" |
+| **The program returns the first encrypted word.** | Input: "don't compare yourself to others, compare yourself to the person you were yesterday" | Output: "daeer" |
+| **The program returns the encrypted words.** | Input: "don't compare yourself to others, compare yourself to the person you were yesterday" | Output: "daeer leweo rlref rerne fsyts rdtyt coooe acooo utnyy ouomr hyemr tpseo spsha eput"|
 
 
 ## Setup/Installation Requirements
