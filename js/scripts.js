@@ -1,8 +1,8 @@
 // business logic
-var encrypt = function (inputDecimalNumber){
+var encrypt = function (inputString){
+  return (inputString)
 
-
-
+}
 // user logic
 $(document).ready(function() {
   $("form#txtTranslator").submit(function(event) {
