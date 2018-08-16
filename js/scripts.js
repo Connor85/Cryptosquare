@@ -7,7 +7,8 @@ var encrypt = function (inputString){
   var row = Math.ceil(squareString);
   var column = Math.ceil(stringLength/row);
 
-  return ("The phrase " + inputString + " is " + stringLength + " long and will use a " + row + " X " + column + " grid.");
+  // return ("The phrase " + inputString + " is " + stringLength + " long and will use a " + row + " X " + column + " grid.");
+  return(inputString[0]);
 
 }
 // user logic
